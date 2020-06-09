@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior:unset ;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/lap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 250px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    font-size: 70px;
+}
+.box{
+    text-align: center;
+};
+
+.welcome{
+    text-align: center;
+    
+}
+
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+
+
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff; 
+    font-size: 30px;
+    overflow-y: hidden;
+    padding-bottom: 28px;
+    letter-spacing: 2px;
+    padding-top: 70px;
+ }
+
+.margin{
+      text-decoration: underline;
+      font-weight: bolder;
+      font-size: 45px;
+      overflow-y: hidden;
+      padding-bottom: 6px;
+      padding-top: 0px;
+      color: black;
+  }
+  .bg-2 { 
+    color:black
+    background-color: #ffffff;
+    font-size: 30px;
+  }
+  
+  
+.gallery img {
+    width: 50%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 22px;
+    color: #1abc9c;
+    font-weight: bolder;
+  }
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin: 0px 62px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .bg-3 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff; 
+    font-size: 30px;
+    overflow-y: hidden;
+    padding-bottom: 28px;
+    letter-spacing: 2px;
+    border-radius: 25%;
+ }
+  #skil{
+    padding-top: 0%;
+    font-size: 55px;
+    padding-bottom: 3%;
+  }
+  
+.ski{
+    font-size: 45px;
+  }
+  .bg-4{
+   color:  #1abc9c;
+   font-size: 45px;
+   font-weight: bolder;
+
+  }
+  
+.responsive1 {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin: 0px 55px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive1 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive1 {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.button{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+  }
+
+.button1,.button2{
+    border-radius: 25px;
+    height: 60%;
+    margin: 10px auto;
+    width: 20%;
+    background-color:#1abc9c;
+    padding:10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 1%;
+    border: 4px rgb(3, 31, 14) solid;
+}
+@media only screen and (max-width: 700px) {
+  .button {
+    flex-direction: column ;
+    
+  }
+}
+@media only screen and (max-width: 700px) {
+  .button1,.button2 {
+    overflow-y: hidden ;
+    width: 275px;
+    
+  }
+}
+
+.bg-6{
+  background-color: #1abc9c;
+  color: white;
+  margin-bottom: 0cm;
+ 
+}
+.copy{
+  font-size: 20px;
+  margin: 0px;
+  height: 40px;
+  padding-top: 4px;
+
+}

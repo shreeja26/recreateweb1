@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b44b66b583.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=EB+Garamond:wght@500&family=Pacifico&family=Shrikhand&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Pacifico&family=Shrikhand&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Shrikhand&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  
+    <title>Welcome !</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#"><strong>WELCOME</strong></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#about">ABOUT</a></li>
+                <li><a href='#qualification'>QUALIFICATIONS</a></li>
+                <li><a href='#skill'>SKILLS</a></li>
+                <li><a href='#contact'>CONTACT</a></li>
+                <li><a href='index.html'>HOME</a></li> 
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+      <a name="about"></a>
+        <h3 class="margin">ABOUT</h3><br>
+        <p>Hey  Everyone...Hope  you  all  doing  great , so  yaa  myself  Shreeja  Raj, I'm  very  passionate  about  web  devlopment. I  thrive  on
+            challenges  and  constantly  set  goals  for  myself , so  I  have  something  to  strive  towards. I'm  not  comfortable  with  
+            settling , and  I'm  always  looking  for  an  opportunity  to  do  better  and  achieve  greatness.
+        </p>
+    </div>
+    <div class="container-fluid bg-2 text-center">
+      <a name="qualification"></a>
+        <h3 class="margin">QUALIFICATIONS</h3><br>
+        <div class="responsive">
+            <div class="gallery">
+              <img src="./images/geu.jpg" alt="Cinque Terre" width="600" height="400">
+              <div class="desc">2019-2023<br>
+              Graphic Era University
+              </div>
+            </div>
+        </div>
+        <div class="responsive">
+          <div class="gallery">
+            <img src="./images/sunbeam.jpg" alt="Cinque Terre" width="600" height="400">
+            <div class="desc">2017-2019<br>
+            Sunbeam Schools,Varanasi<br>
+            Seniour-Secondary(CBSE)</div>
+          </div>
+        </div>
+          <div class="responsive">
+            <div class="gallery">
+               <img src="./images/aps.jpg" alt="Cinque Terre" width="600" height="400">
+               <div class="desc">2007-2017<br>
+                Army Public School,Varanasi<br>
+                secondary(CBSE)</div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid bg-3 text-center">
+            <a name="skill"></a>
+            <h3 class="margin" id="skil">SKILLS</h3>
+            <div class="skills">
+              <ul class="ski">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive Website</li>
+                  <li>JavaScript</li>
+                  <li>Dom Manupulation</li>
+                  <li>Bootstrap</li>
+                  <li>Python</li>
+                  <li>C </li>
+              </ul>
+          </div>
+          </div>
+          <div class="container-fluid bg-4 text-center">
+            <a name="contact"></a>
+            <h3 class="margin">CONTACT</h3><br>
+            <div class="responsive1">
+                <div class="gallery1">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                  </div>
+            </div>
+            <div class="responsive1">
+              <div class="gallery1">
+                <i class="fab fa-facebook-square fa-2x"></i>
+                </div>
+            </div>
+              <div class="responsive1">
+                <div class="gallery1">
+                  <i class="fab fa-github fa-2x"></i>
+                  </div>
+              </div>
+              </div>
+              <div class="clearfix"></div>
+    
+           
+        
+        
+        <div class="button">
+            <div class="button1" onmouseover="mOver(this)" onmouseout="mOut(this)">Mouse Over Me</div>
+            <div class="button2" onmousedown="mDown(this)" onmouseup="mUp(this)">Click Me</div>
+        </div>
+
+
+    </main>
+    <div class="container-fluid bg-6 text-center">
+        <div class="copy">
+         copyright&copy;shreeja raj All rights reserved
+        </div>
+    </div>
+    
+    <script>
+        function mOver(obj) {
+          obj.innerHTML = "Thank You"
+        }
+        
+        function mOut(obj) {
+          obj.innerHTML = "Mouse Over Me"
+        }
+        </script>
+        <script>
+            function mDown(obj) {
+              obj.style.backgroundColor = "green";
+              obj.innerHTML = "Release Me";
+            }
+            
+            function mUp(obj) {
+              obj.style.backgroundColor="#1abc9c";
+              obj.innerHTML="Have a nice day";
+            }
+            </script>
+            
+                
+    
+    
+</body>
+</html>
